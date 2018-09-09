@@ -19,7 +19,7 @@ if(isset($_POST['signup']))
  }
  else if(empty($email))
  {
-  $error = "enter your email !";
+  $error = "enter your email jenkins job !";
   $code = 2;
  }
  else if(!preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i", $email))
